@@ -8,7 +8,7 @@ import os
 
 from nltk.stem.porter import PorterStemmer
 # Ensure the required NLTK resources are downloaded
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 ps = PorterStemmer()
