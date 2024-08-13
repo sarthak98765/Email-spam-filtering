@@ -4,7 +4,7 @@ import string
 from nltk.corpus import stopwords
 import nltk
 import os
-os.chdir(r"C:\Users\Sarthak Aggarwal\DATA SCIENCE\Sample Notebooks\Email Spam filtering")
+# os.chdir(r"C:\Users\Sarthak Aggarwal\DATA SCIENCE\Sample Notebooks\Email Spam filtering")
 
 from nltk.stem.porter import PorterStemmer
 
