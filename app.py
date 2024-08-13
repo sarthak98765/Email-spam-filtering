@@ -7,6 +7,9 @@ import os
 # os.chdir(r"C:\Users\Sarthak Aggarwal\DATA SCIENCE\Sample Notebooks\Email Spam filtering")
 
 from nltk.stem.porter import PorterStemmer
+# Ensure the required NLTK resources are downloaded
+nltk.download('punkt')
+nltk.download('stopwords')
 
 ps = PorterStemmer()
 
